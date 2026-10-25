@@ -1,0 +1,146 @@
+package main
+
+import (
+	"time"
+ "context"
+ "fmt"
+ "strings"
+
+ dagger "uptime-kuma-monitoring/internal/dagger"
+)
+
+const projectPath = "/tmp/devops-check/DevOps_Testovoe"
+
+type UptimeKumaMonitoring struct {
+ DockerSocket *dagger.Socket
+}
+
+func New(dockerSocket *dagger.Socket) *UptimeKumaMonitoring {
+ return &UptimeKumaMonitoring{DockerSocket: dockerSocket}
+}
+
+func (m *UptimeKumaMonitoring) docker(ctx context.Context, args ...string) (string, error) {
+ if m.DockerSocket == nil {
+  return "", fmt.Errorf("Docker socket is not configured")
+ }
+
+ project := dag.CurrentModule().Source().Directory(".")
+
+ ctr := dag.Container().
+  From("docker:27-cli").
+  WithUnixSocket("/var/run/docker.sock", m.DockerSocket).
+  WithDirectory(projectPath, project).
+  WithWorkdir(projectPath).
+  WithExec(append([]string{"docker"}, args...))
+
+ out, err := ctr.Stdout(ctx)
+ if err != nil {
+  stderr, _ := ctr.Stderr(ctx)
+  return "", fmt.Errorf(
+   "docker %s failed: %s: %w",
+   strings.Join(args, " "),
+   strings.TrimSpace(stderr),
+   err,
+  )
+ }
+ return out, nil
+}
+
+func (m *UptimeKumaMonitoring) DeployApp(ctx context.Context) (string, error) {
+ out, err := m.docker(ctx, "compose", "-f", "compose.app.yml", "up", "-d")
+ if err != nil {
+  return "", err
+ }
+ return "Application deployment completed.\n" + out, nil
+}
+
+func (m *UptimeKumaMonitoring) DeployMonitoring(ctx context.Context) (string, error) {
+ if _, err := m.docker(ctx, "network", "inspect", "kuma-app"); err != nil {
+  return "", fmt.Errorf("deploy-app must run first; network kuma-app is missing: %w", err)
+ }
+
+ out, err := m.docker(ctx, "compose", "-f", "compose.monitoring.yml", "up", "-d")
+ if err != nil {
+  return "", err
+ }
+ return "Monitoring deployment completed.\n" + out, nil
+}
+
+func (m *UptimeKumaMonitoring) ConfigureGrafana(ctx context.Context) (string, error) {
+ if _, err := m.docker(ctx, "restart", "kuma-grafana"); err != nil {
+  return "", err
+ }
+
+ // The health endpoint does not require Grafana credentials.
+ out, err := dag.Container().
+  From("curlimages/curl:8.12.1").
+  WithExec([]string{
+   "curl", "-fsS", "http://host.docker.internal:3000/api/health",
+  }).
+  Stdout(ctx)
+ if err != nil {
+  return "", fmt.Errorf("Grafana API health check failed: %w", err)
+ }
+
+ return "Grafana restarted; API health response: " + strings.TrimSpace(out), nil
+}
+
+func (m *UptimeKumaMonitoring) DeployAll(ctx context.Context) (string, error) {
+ app, err := m.DeployApp(ctx)
+ if err != nil {
+  return "", err
+ }
+
+ monitoring, err := m.DeployMonitoring(ctx)
+ if err != nil {
+  return "", err
+ }
+
+ grafana, err := m.ConfigureGrafana(ctx)
+ if err != nil {
+  return "", err
+ }
+
+ status, err := m.Status(ctx)
+ if err != nil {
+  return "", err
+ }
+
+ return app + "\n" + monitoring + "\n" + grafana +
+  "\nContainer status:\n" + status, nil
+}
+
+func (m *UptimeKumaMonitoring) Status(ctx context.Context) (string, error) {
+ return m.docker(ctx, "ps", "--format", "{{.Names}} {{.Status}}")
+}
+
+func (m *UptimeKumaMonitoring) ChaosTest(ctx context.Context) (string, error) {
+    if _, err := m.docker(ctx, "inspect", "uptime-kuma"); err != nil {
+        return "", fmt.Errorf("uptime-kuma container not found: %w", err)
+    }
+
+    if _, err := m.docker(ctx, "kill", "uptime-kuma"); err != nil {
+        return "", fmt.Errorf("failed to stop uptime-kuma: %w", err)
+    }
+
+    time.Sleep(2 * time.Second)
+
+    if _, err := m.docker(ctx, "start", "uptime-kuma"); err != nil {
+        return "", fmt.Errorf("failed to restart uptime-kuma: %w", err)
+    }
+
+    for i := 0; i < 45; i++ {
+        if err := ctx.Err(); err != nil {
+            return "", err
+        }
+
+        status, err := m.docker(ctx, "inspect", "--format", "{{.State.Running}}", "uptime-kuma")
+        if err == nil && strings.TrimSpace(status) == "true" {
+            return "Chaos test passed: uptime-kuma was stopped and successfully restarted", nil
+        }
+
+        time.Sleep(2 * time.Second)
+    }
+
+    return "", fmt.Errorf("uptime-kuma did not return to running state within 90 seconds")
+}

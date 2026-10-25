@@ -1,0 +1,49 @@
+services:
+  mariadb:
+    image: mariadb:11.4
+    container_name: kuma-mariadb
+    restart: unless-stopped
+    environment:
+      MARIADB_DATABASE: uptimekuma
+      MARIADB_USER: kuma
+      MARIADB_PASSWORD: ${KUMA_DB_PASSWORD:-change-me-db-password}
+      MARIADB_ROOT_PASSWORD: ${MARIADB_ROOT_PASSWORD:-change-me-root-password}
+    volumes:
+      - mariadb_data:/var/lib/mysql
+    networks: [app]
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  uptime-kuma:
+    image: louislam/uptime-kuma:1
+    container_name: uptime-kuma
+    restart: unless-stopped
+    # Uptime Kuma's supported default storage is SQLite in /app/data.
+    # MariaDB is deployed as a separate persistent component, but Kuma itself
+    # does not natively use MariaDB as its application database.
+    volumes:
+      - kuma_data:/app/data
+    ports:
+      - "3001:3001"
+    networks: [app]
+    depends_on:
+      mariadb:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "node -e \"require('http').get('http://127.0.0.1:3001',r=>process.exit(r.statusCode < 500 ? 0 : 1)).on('error',()=>process.exit(1))\""]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+
+volumes:
+  mariadb_data:
+  kuma_data:
+
+networks:
+  app:
+    external: true
+    name: kuma-app
