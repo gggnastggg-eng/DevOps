@@ -1,4 +1,4 @@
-# Intern DevOps SafeBoard 2026 — тестовое задание
+# DevOps 
 
 ## О проекте
 
