@@ -1,0 +1,213 @@
+[95m1   : [0m[90;2m[0mconnect
+[95m1   : [0m[90;2m[0m[90m[0.3s] [0m[90m|[0m cloud [2murl=[0mhttps://dagger.cloud/traces/setup
+[95m2   : [0m[90;2m┆ [0mstarting engine
+[95m3   : [0m[90;2m┆ ┆ [0mcreate container
+[95m4   : [0m[90;2m┆ ┆ ┆ [0mexec docker ps -a --format {{.Names}}
+[95m4   : [0m[90;2m┆ ┆ ┆ [0m[90m[0.1s] [0m[90m|[0m kuma-grafana
+[95m4   : [0m[90;2m┆ ┆ ┆ [0m[90m[0.1s] [0m[90m|[0m kuma-prometheus
+[95m4   : [0m[90;2m┆ ┆ ┆ [0m[90m[0.1s] [0m[90m|[0m kuma-cadvisor
+[95m4   : [0m[90;2m┆ ┆ ┆ [0m[90m[0.1s] [0m[90m|[0m kuma-blackbox-exporter
+[95m4   : [0m[90;2m┆ ┆ ┆ [0m[90m[0.1s] [0m[90m|[0m kuma-node-exporter
+[95m4   : [0m[90;2m┆ ┆ ┆ [0m[90m[0.1s] [0m[90m|[0m uptime-kuma
+[95m4   : [0m[90;2m┆ ┆ ┆ [0m[90m[0.1s] [0m[90m|[0m kuma-mariadb
+[95m4   : [0m[90;2m┆ ┆ ┆ [0m[90m[0.1s] [0m[90m|[0m dagger-engine-v0.18.19
+[95m4   : [0m[90;2m┆ ┆ ┆ [0m[90m[0.1s] [0m[90m|[0m gracious_ganguly
+[95m4   : [0m[90;2m┆ ┆ ┆ [0mexec docker ps -a --format {{.Names}}[32m DONE[0m[90m [0.1s][0m
+[95m5   : [0m[90;2m┆ ┆ ┆ [0mexec docker start dagger-engine-v0.18.19
+[95m5   : [0m[90;2m┆ ┆ ┆ [0m[90m[0.0s] [0m[90m|[0m dagger-engine-v0.18.19
+[95m5   : [0m[90;2m┆ ┆ ┆ [0mexec docker start dagger-engine-v0.18.19[32m DONE[0m[90m [0.0s][0m
+[95m3   : [0m[90;2m┆ ┆ [0mcreate container[32m DONE[0m[90m [0.1s][0m
+[95m2   : [0m[90;2m┆ [0mstarting engine[32m DONE[0m[90m [0.1s][0m
+[95m6   : [0m[90;2m┆ [0mconnecting to engine
+[95m6   : [0m[90;2m┆ [0m[90m[0.1s] [0m[90m|[0m [2m14:34:47[0m [92mINF[0m connected [2mname=[0m72e1603c7ad4 [2mclient-version=[0mv0.18.19 [2mserver-version=[0mv0.18.19
+[95m6   : [0m[90;2m┆ [0mconnecting to engine[32m DONE[0m[90m [0.1s][0m
+[95m7   : [0m[90;2m┆ [0mstarting session
+[95m7   : [0m[90;2m┆ [0mstarting session[32m DONE[0m[90m [0.1s][0m
+[95m1   : [0m[90;2m[0mconnect[32m DONE[0m[90m [0.8s][0m
+
+[95m8   : [0m[90;2m[0mload module: .
+[95m9   : [0m[90;2m┆ [0mfinding module configuration
+[95m9   : [0m[90;2m┆ [0mfinding module configuration[32m DONE[0m[90m [0.7s][0m
+[95m10  : [0m[90;2m┆ [0minitializing module
+[95m10  : [0m[90;2m┆ [0minitializing module[32m DONE[0m[90m [2.4s][0m
+[95m11  : [0m[90;2m┆ [0minspecting module metadata
+[95m11  : [0m[90;2m┆ [0minspecting module metadata[32m DONE[0m[90m [0.0s][0m
+[95m12  : [0m[90;2m┆ [0mloading type definitions
+[95m12  : [0m[90;2m┆ [0mloading type definitions[32m DONE[0m[90m [0.2s][0m
+[95m8   : [0m[90;2m[0mload module: .[32m DONE[0m[90m [3.2s][0m
+
+[95m13  : [0m[90;2m[0mparsing command line arguments
+[95m13  : [0m[90;2m[0mparsing command line arguments[32m DONE[0m[90m [0.0s][0m
+
+[95m14  : [0m[90;2m[0m[1maddress[0m([36mvalue: [0m[33m"/var/run/docker.sock"[0m)[2m: Address![0m
+[95m14  : [0m[90;2m[0m[1maddress[0m[32m DONE[0m[90m [0.0s][0m
+
+[95m15  : [0m[90;2m[0mAddress.[1msocket[0m[2m: Socket![0m
+[95m15  : [0m[90;2m[0mAddress.[1msocket[0m[32m DONE[0m[90m [0.0s][0m
+
+[95m16  : [0m[90;2m[0m[1muptimeKumaMonitoring[0m(
+[95m16  : [0m[90;2m┆ [0m[36mdockerSocket:[0m Address.[1msocket[0m[2m: Socket![0m
+[95m16  : [0m[90;2m[0m)[2m: UptimeKumaMonitoring![0m
+[95m16  : [0m[90;2m[0m[1muptimeKumaMonitoring[0m[32m DONE[0m[90m [0.4s][0m
+
+[95m17  : [0m[90;2m[0m[35mUptimeKumaMonitoring[0m.[1mdeployAll[0m[2m: String![0m
+[95m18  : [0m[90;2m┆ [0mDirectory.[1mdirectory[0m([36mpath: [0m[33m"."[0m)[2m: Directory![0m
+[95m18  : [0m[90;2m┆ [0mDirectory.[1mdirectory[0m[32m DONE[0m[90m [0.0s][0m
+[95m19  : [0m[90;2m┆ [0m[1mcontainer[0m[2m: Container![0m
+[95m19  : [0m[90;2m┆ [0m[1mcontainer[0m[32m DONE[0m[90m [0.0s][0m
+[95m20  : [0m[90;2m┆ [0mContainer.[1mfrom[0m([36maddress: [0m[33m"docker:27-cli"[0m)[2m: Container![0m
+[95m20  : [0m[90;2m┆ [0mContainer.[1mfrom[0m[32m DONE[0m[90m [1.0s][0m
+[95m21  : [0m[90;2m┆ [0mContainer.[1mwithUnixSocket[0m(
+[95m21  : [0m[90;2m┆ ┆ [0m[36mpath:[0m [33m"/var/run/docker.sock"[0m
+[95m21  : [0m[90;2m┆ ┆ [0m[36msource:[0m Address.[1msocket[0m[2m: Socket![0m
+[95m21  : [0m[90;2m┆ [0m)[2m: Container![0m
+[95m21  : [0m[90;2m┆ [0mContainer.[1mwithUnixSocket[0m[32m DONE[0m[90m [0.0s][0m
+[95m22  : [0m[90;2m┆ [0mContainer.[1mwithDirectory[0m(
+[95m22  : [0m[90;2m┆ ┆ [0m[36mpath:[0m [33m"/tmp/devops-check/DevOps_Testovoe"[0m
+[95m22  : [0m[90;2m┆ ┆ [0m[36mdirectory:[0m Directory.[1mdirectory[0m([36mpath: [0m[33m"."[0m)[2m: Directory![0m
+[95m22  : [0m[90;2m┆ [0m)[2m: Container![0m
+[95m23  : [0m[90;2m┆ [0mContainer.[1mwithWorkdir[0m([36mpath: [0m[33m"/tmp/devops-check/DevOps_Testovoe"[0m)[2m: Container![0m
+[95m23  : [0m[90;2m┆ [0mContainer.[1mwithWorkdir[0m[32m DONE[0m[90m [0.0s][0m
+[95m24  : [0m[90;2m┆ [0mContainer.[1mwithExec[0m([36margs: [0m[[33m"docker"[0m, [33m"compose"[0m, [33m"-f"[0m, [33m"compose.app.yml"[0m, [33m"up"[0m, [33m"-d"[0m])[2m: Container![0m
+[95m24  : [0m[90;2m┆ [0mContainer.[1mwithExec[0m[32m DONE[0m[90m [0.0s][0m
+[95m25  : [0m[90;2m┆ [0mContainer.[1mstdout[0m[2m: String![0m
+[95m22  : [0m[90;2m┆ [0mContainer.[1mwithDirectory[0m[32m DONE[0m[90m [0.4s][0m
+[95m24  : [0m[90;2m┆ [0mContainer.[1mwithExec[0m[32m DONE[0m[90m [0.8s][0m
+[95m24  : [0m[90;2m┆ [0m[90m[1.1s] [0m[90m|[0m time="2026-10-20T11:34:54Z" level=warning msg="Found orphan containers ([kuma-grafana kuma-prometheus kuma-cadvisor kuma-blackbox-exporter kuma-node-exporter]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
+[95m24  : [0m[90;2m┆ [0m[90m[1.1s] [0m[90m|[0m  Container kuma-mariadb  Running
+[95m24  : [0m[90;2m┆ [0m[90m[1.1s] [0m[90m|[0m  Container uptime-kuma  Running
+[95m24  : [0m[90;2m┆ [0m[90m[1.1s] [0m[90m|[0m  Container kuma-mariadb  Waiting
+[95m24  : [0m[90;2m┆ [0m[90m[1.7s] [0m[90m|[0m  Container kuma-mariadb  Healthy
+[95m25  : [0m[90;2m┆ [0mContainer.[1mstdout[0m[32m DONE[0m[90m [1.9s][0m
+[95m26  : [0m[90;2m┆ [0mContainer.[1mwithExec[0m([36margs: [0m[[33m"docker"[0m, [33m"network"[0m, [33m"inspect"[0m, [33m"kuma-app"[0m])[2m: Container![0m
+[95m27  : [0m[90;2m┆ [0mContainer.[1mstdout[0m[2m: String![0m
+[95m26  : [0m[90;2m┆ [0mContainer.[1mwithExec[0m([36margs: [0m[[33m"docker"[0m, [33m"network"[0m, [33m"inspect"[0m, [33m"kuma-app"[0m])[2m: Container![0m
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m [
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m     {
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m         "Name": "kuma-app",
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m         "Id": "a742d31c2a396619fa48243dc7950c4dc2e69cb8334b73d974a8c8725b2fa88f",
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m         "Created": "2026-10-19T18:11:37.026191057Z",
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m         "Scope": "local",
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m         "Driver": "bridge",
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m         "EnableIPv4": true,
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m         "EnableIPv6": false,
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m         "IPAM": {
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m             "Driver": "default",
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m             "Options": {},
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m             "Config": [
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m                 {
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m                     "Subnet": "172.18.0.0/16",
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m                     "Gateway": "172.18.0.1"
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m                 }
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m             ]
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m         },
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m         "Internal": false,
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m         "Attachable": false,
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m         "Ingress": false,
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m         "ConfigFrom": {
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m             "Network": ""
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m         },
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m         "ConfigOnly": false,
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m         "Options": {
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m             "com.docker.network.enable_ipv4": "true",
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m             "com.docker.network.enable_ipv6": "false"
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m         },
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m         "Labels": {},
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m         "Containers": {
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m             "022c35009d0e54e1f55dc0b8e96d4ba42a33e89cdee3dcc8455b3b5c758064f0": {
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m                 "Name": "kuma-mariadb",
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m                 "EndpointID": "6487fbf1d360741c8954ba0a53da7a422e935b138a4de5885341a10225d6433c",
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m                 "MacAddress": "aa:11:b8:eb:ba:4e",
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m                 "IPv4Address": "172.18.0.4/16",
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m                 "IPv6Address": ""
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m             },
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m             "07498a3ba4db177aee55318dd7e90b518a0ef160ab3f51a1bce6081f1afdc1de": {
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m                 "Name": "kuma-prometheus",
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m                 "EndpointID": "23e273f56a9c18251f31bbb2d4c07aa1bbb065aa02a8dfb1ed2927a14676e056",
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m                 "MacAddress": "36:09:72:ec:d9:f1",
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m                 "IPv4Address": "172.18.0.3/16",
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m                 "IPv6Address": ""
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m             },
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m             "4153d25ba9b1bb3bfcda8f558157f81e4182437e1a938c565d67538e58864b71": {
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m                 "Name": "uptime-kuma",
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m                 "EndpointID": "4071a34bf58a1a6526cf30a1725d8273bab0ddb87017570e073170098c0a15cb",
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m                 "MacAddress": "ba:b8:09:96:9c:fb",
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m                 "IPv4Address": "172.18.0.5/16",
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m                 "IPv6Address": ""
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m             },
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m             "a8d1af718f46503b163713de9509e3bf57bab652c576555cd554902659ba2f30": {
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m                 "Name": "kuma-blackbox-exporter",
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m                 "EndpointID": "70cb6d8ef36381af97125876bfac71887142c664f9c4280116709f4133236075",
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m                 "MacAddress": "d2:d1:a1:8c:cc:d6",
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m                 "IPv4Address": "172.18.0.2/16",
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m                 "IPv6Address": ""
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m             }
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m         }
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m     }
+[95m26  : [0m[90;2m┆ [0m[90m[0.2s] [0m[90m|[0m ]
+[95m26  : [0m[90;2m┆ [0mContainer.[1mwithExec[0m[32m DONE[0m[90m [0.2s][0m
+[95m27  : [0m[90;2m┆ [0mContainer.[1mstdout[0m[32m DONE[0m[90m [0.3s][0m
+[95m28  : [0m[90;2m┆ [0mContainer.[1mwithExec[0m([36margs: [0m[[33m"docker"[0m, [33m"compose"[0m, [33m"-f"[0m, [33m"compose.monitoring.yml"[0m, [33m"up"[0m, [33m"-d"[0m])[2m: Container![0m
+[95m29  : [0m[90;2m┆ [0mContainer.[1mstdout[0m[2m: String![0m
+[95m28  : [0m[90;2m┆ [0mContainer.[1mwithExec[0m([36margs: [0m[[33m"docker"[0m, [33m"compose"[0m, [33m"-f"[0m, [33m"compose.monitoring.yml"[0m, [33m"up"[0m, [33m"-d"[0m])[2m: Container![0m
+[95m28  : [0m[90;2m┆ [0m[90m[0.4s] [0m[90m|[0m time="2026-10-20T11:34:55Z" level=warning msg="Found orphan containers ([uptime-kuma kuma-mariadb]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
+[95m28  : [0m[90;2m┆ [0m[90m[0.4s] [0m[90m|[0m  Container kuma-cadvisor  Running
+[95m28  : [0m[90;2m┆ [0m[90m[0.4s] [0m[90m|[0m  Container kuma-blackbox-exporter  Running
+[95m28  : [0m[90;2m┆ [0m[90m[0.4s] [0m[90m|[0m  Container kuma-node-exporter  Running
+[95m28  : [0m[90;2m┆ [0m[90m[0.4s] [0m[90m|[0m  Container kuma-prometheus  Running
+[95m28  : [0m[90;2m┆ [0m[90m[0.4s] [0m[90m|[0m  Container kuma-grafana  Running
+[95m28  : [0m[90;2m┆ [0mContainer.[1mwithExec[0m[32m DONE[0m[90m [0.6s][0m
+[95m29  : [0m[90;2m┆ [0mContainer.[1mstdout[0m[32m DONE[0m[90m [0.7s][0m
+[95m30  : [0m[90;2m┆ [0mContainer.[1mwithExec[0m([36margs: [0m[[33m"docker"[0m, [33m"restart"[0m, [33m"kuma-grafana"[0m])[2m: Container![0m
+[95m31  : [0m[90;2m┆ [0mContainer.[1mstdout[0m[2m: String![0m
+[95m30  : [0m[90;2m┆ [0mContainer.[1mwithExec[0m([36margs: [0m[[33m"docker"[0m, [33m"restart"[0m, [33m"kuma-grafana"[0m])[2m: Container![0m
+[95m30  : [0m[90;2m┆ [0m[90m[0.6s] [0m[90m|[0m kuma-grafana
+[95m30  : [0m[90;2m┆ [0mContainer.[1mwithExec[0m[32m DONE[0m[90m [0.7s][0m
+[95m31  : [0m[90;2m┆ [0mContainer.[1mstdout[0m[32m DONE[0m[90m [0.7s][0m
+[95m32  : [0m[90;2m┆ [0mContainer.[1mfrom[0m([36maddress: [0m[33m"curlimages/curl:8.12.1"[0m)[2m: Container![0m
+[95m32  : [0m[90;2m┆ [0mContainer.[1mfrom[0m[34m CACHED[0m[90m [0.6s][0m
+[95m33  : [0m[90;2m┆ [0mContainer.[1mwithExec[0m([36margs: [0m[[33m"curl"[0m, [33m"-fsS"[0m, [33m"http://host.docker.internal:3000/api/health"[0m])[2m: Container![0m
+[95m33  : [0m[90;2m┆ [0mContainer.[1mwithExec[0m[34m CACHED[0m[90m [0.0s][0m
+[95m34  : [0m[90;2m┆ [0mContainer.[1mstdout[0m[2m: String![0m
+[95m34  : [0m[90;2m┆ [0mContainer.[1mstdout[0m[32m DONE[0m[90m [0.1s][0m
+[95m35  : [0m[90;2m┆ [0mContainer.[1mwithExec[0m([36margs: [0m[[33m"docker"[0m, [33m"ps"[0m, [33m"--format"[0m, [33m"{{.Names}} {{.Status}}"[0m])[2m: Container![0m
+[95m36  : [0m[90;2m┆ [0mContainer.[1mstdout[0m[2m: String![0m
+[95m35  : [0m[90;2m┆ [0mContainer.[1mwithExec[0m([36margs: [0m[[33m"docker"[0m, [33m"ps"[0m, [33m"--format"[0m, [33m"{{.Names}} {{.Status}}"[0m])[2m: Container![0m
+[95m35  : [0m[90;2m┆ [0m[90m[0.3s] [0m[90m|[0m kuma-grafana Up 1 second
+[95m35  : [0m[90;2m┆ [0m[90m[0.3s] [0m[90m|[0m kuma-prometheus Up 11 minutes
+[95m35  : [0m[90;2m┆ [0m[90m[0.3s] [0m[90m|[0m kuma-cadvisor Up 11 minutes (healthy)
+[95m35  : [0m[90;2m┆ [0m[90m[0.3s] [0m[90m|[0m kuma-blackbox-exporter Up 11 minutes
+[95m35  : [0m[90;2m┆ [0m[90m[0.3s] [0m[90m|[0m kuma-node-exporter Up 11 minutes
+[95m35  : [0m[90;2m┆ [0m[90m[0.3s] [0m[90m|[0m uptime-kuma Up 5 minutes (healthy)
+[95m35  : [0m[90;2m┆ [0m[90m[0.3s] [0m[90m|[0m kuma-mariadb Up 11 minutes (healthy)
+[95m35  : [0m[90;2m┆ [0m[90m[0.3s] [0m[90m|[0m dagger-engine-v0.18.19 Up 4 hours
+[95m35  : [0m[90;2m┆ [0mContainer.[1mwithExec[0m[32m DONE[0m[90m [0.4s][0m
+[95m36  : [0m[90;2m┆ [0mContainer.[1mstdout[0m[32m DONE[0m[90m [0.4s][0m
+[95m17  : [0m[90;2m[0m[35mUptimeKumaMonitoring[0m.[1mdeployAll[0m[32m DONE[0m[90m [6.6s][0m
+
+
+Setup tracing at https://dagger.cloud/traces/setup. To hide set DAGGER_NO_NAG=1
+
+
+Application deployment completed.
+
+Monitoring deployment completed.
+
+Grafana restarted; API health response: {
+  "database": "ok",
+  "version": "12.1.1",
+  "commit": "df5de8219b41d1e639e003bf5f3a85913761d167"
+}
+Container status:
+kuma-grafana Up 1 second
+kuma-prometheus Up 11 minutes
+kuma-cadvisor Up 11 minutes (healthy)
+kuma-blackbox-exporter Up 11 minutes
+kuma-node-exporter Up 11 minutes
+uptime-kuma Up 5 minutes (healthy)
+kuma-mariadb Up 11 minutes (healthy)
+dagger-engine-v0.18.19 Up 4 hours
+
+[33mA new release of dagger is available: [0m[36mv0.18.19[0m → [36mv0.21.10[0m
+To upgrade, see https://docs.dagger.io/install
+[33mhttps://github.com/dagger/dagger/releases/tag/v0.21.10[0m

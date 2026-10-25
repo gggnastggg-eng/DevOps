@@ -1,0 +1,300 @@
+2026-10-20 13:14:43 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:44 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:44 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:45 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:45 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:46 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:46 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:47 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:47 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:48 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:48 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:49 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:49 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:50 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:50 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:51 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:51 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:52 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:52 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:53 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:53 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:54 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:54 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:55 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:55 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:56 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:56 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:57 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:57 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:58 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:58 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:59 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:14:59 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:00 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:00 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:01 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:01 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:02 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:02 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:03 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:03 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:04 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:04 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:05 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:05 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:06 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:06 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:07 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:07 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:08 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:08 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:09 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:09 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:10 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:10 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:11 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:11 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:12 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:12 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:13 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:13 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:14 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:14 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:15 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:15 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:16 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:16 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:17 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:17 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:18 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:18 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:19 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:19 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:20 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:20 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:21 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:21 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:22 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:22 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:23 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:23 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:24 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:24 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:25 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:25 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:26 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:26 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:27 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:27 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:28 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:28 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:29 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:29 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:30 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:30 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:31 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:31 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:32 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:32 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:33 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:33 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:34 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:34 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:35 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:35 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:36 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:36 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:37 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:37 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:38 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:38 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:39 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:39 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:40 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:40 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:41 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:41 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:42 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:42 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:43 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:43 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:44 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:44 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:45 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:45 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:46 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:46 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:47 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:47 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:48 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:48 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:49 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:49 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:50 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:50 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:51 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:51 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:52 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:52 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:53 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:53 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:54 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:54 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:55 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:55 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:56 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:56 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:57 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:57 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:58 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:58 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:59 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:15:59 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:00 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:00 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:01 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:01 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:02 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:02 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:03 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:03 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:04 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:04 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:05 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:05 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:06 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:06 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:07 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:07 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:08 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:08 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:09 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:09 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:10 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:10 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:11 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:11 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:12 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:12 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:13 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:13 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:14 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:14 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:16 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:16 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:17 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:17 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:18 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:18 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:19 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:19 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:20 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:20 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:21 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:21 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:22 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:22 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:23 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:23 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:24 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:24 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:25 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:25 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:26 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:26 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:27 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:27 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:28 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:28 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:29 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:29 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:30 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:30 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:31 0 [Note] WSREP: Member 0.0 (galera2) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:31 0 [Note] WSREP: Member 1.0 (galera3) requested state transfer from '*any*', but it is impossible to select State Transfer donor: No donor candidates temporarily available in suitable state
+2026-10-20 13:16:31 0 [Note] WSREP: (045c3bd0-bb8a, 'tcp://0.0.0.0:4567') turning message relay requesting on, nonlive peers: tcp://172.20.0.3:4567 
+2026-10-20 13:16:32 0 [Note] WSREP: (045c3bd0-bb8a, 'tcp://0.0.0.0:4567') reconnecting to 0b73f404-b597 (tcp://172.20.0.3:4567), attempt 0
+2026-10-20 13:16:35+00:00 [Note] [Entrypoint]: Entrypoint script for MariaDB Server 1:11.4.13+maria~ubu2404 started.
+2026-10-20 13:16:36+00:00 [Warn] [Entrypoint]: /sys/fs/cgroup///memory.pressure not writable, functionality unavailable to MariaDB
+2026-10-20 13:16:36+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+2026-10-20 13:16:36+00:00 [Note] [Entrypoint]: Entrypoint script for MariaDB Server 1:11.4.13+maria~ubu2404 started.
+2026-10-20 13:16:36+00:00 [Note] [Entrypoint]: MariaDB upgrade not required
+2026-10-20 13:16:36 0 [Note] slave_connections_needed_for_purge changed to 0 because of Galera. Change it to 1 or higher if this Galera node is also Master in a normal replication setup
+2026-10-20 13:16:36 0 [Note] Starting MariaDB 11.4.13-MariaDB-ubu2404 source revision 170b1d70737be6f134448f51713cdc1ae215b420 server_uid Wg+yzumKKwWHg5/3mEWyzoDwqkM= as process 1
+2026-10-20 13:16:36 0 [Note] WSREP: Loading provider /usr/lib/galera/libgalera_smm.so initial position: 00000000-0000-0000-0000-000000000000:-1
+2026-10-20 13:16:36 0 [Note] WSREP: wsrep_load(): loading provider library '/usr/lib/galera/libgalera_smm.so'
+2026-10-20 13:16:36 0 [Note] WSREP: wsrep_load(): Galera 26.4.27(rf032a460) by Codership Oy <info@codership.com> loaded successfully.
+2026-10-20 13:16:36 0 [Note] WSREP: Initializing allowlist service v1
+2026-10-20 13:16:36 0 [Note] WSREP: Initializing event service v1
+2026-10-20 13:16:36 0 [Note] WSREP: Resolved symbol 'wsrep_node_isolation_mode_set_v1'
+2026-10-20 13:16:36 0 [Note] WSREP: Resolved symbol 'wsrep_certify_v1'
+2026-10-20 13:16:36 0 [Note] WSREP: CRC-32C: using 64-bit x86 acceleration.
+2026-10-20 13:16:36 0 [Note] WSREP: Found saved state: 00000000-0000-0000-0000-000000000000:-1, safe_to_bootstrap: 1
+2026-10-20 13:16:36 0 [Note] WSREP: GCache DEBUG: opened preamble:
+Version: 2
+UUID: 220df38b-cc7c-11f1-adb1-bbc9563b073d
+Seqno: -1 - -1
+Offset: -1
+Synced: 0
+2026-10-20 13:16:36 0 [Note] WSREP: Recovering GCache ring buffer: version: 2, UUID: 220df38b-cc7c-11f1-adb1-bbc9563b073d, offset: -1
+2026-10-20 13:16:36 0 [Note] WSREP: GCache::RingBuffer initial scan... 0.0% (0/134217752 bytes) complete.
+2026-10-20 13:16:36 0 [Note] WSREP: GCache::RingBuffer initial scan... 100.0% (134217752/134217752 bytes) complete.
+2026-10-20 13:16:36 0 [Note] WSREP: Recovering GCache ring buffer: Recovery failed, need to do full reset.
+2026-10-20 13:16:36 0 [Note] WSREP: Passing config to GCS: base_dir = /var/lib/mysql/; base_host = 172.20.0.3; base_port = 4567; cert.log_conflicts = no; cert.optimistic_pa = yes; debug = no; evs.auto_evict = 0; evs.causal_keepalive_period = PT1S; evs.debug_log_mask = 0x1; evs.delay_margin = PT1S; evs.delayed_keep_period = PT30S; evs.inactive_check_period = PT0.5S; evs.inactive_timeout = PT15S; evs.info_log_mask = 0; evs.join_retrans_period = PT1S; evs.keepalive_period = PT1S; evs.max_install_timeouts = 3; evs.send_window = 4; evs.stats_report_period = PT1M; evs.suspect_timeout = PT5S; evs.use_aggregate = true; evs.user_send_window = 2; evs.version = 1; evs.view_forget_timeout = PT24H; gcache.dir = /var/lib/mysql/; gcache.keep_pages_size = 0; gcache.keep_plaintext_size = 128M; gcache.mem_size = 0; gcache.name = galera.cache; gcache.page_size = 128M; gcache.recover = yes; gcache.size = 128M; gcomm.thread_prio = ; gcs.check_appl_proto = 1; gcs.fc_debug = 0; gcs.fc_factor = 1.0; gcs.fc_limit = 16; gcs.fc_master_slave = no; gcs.fc_single_pr
+2026-10-20 13:16:36 0 [Note] WSREP: Start replication
+2026-10-20 13:16:36 0 [Note] WSREP: Connecting with bootstrap option: 0
+2026-10-20 13:16:36 0 [Note] WSREP: Setting GCS initial position to 00000000-0000-0000-0000-000000000000:-1
+2026-10-20 13:16:36 0 [Note] WSREP: protonet asio version 0
+2026-10-20 13:16:36 0 [Note] WSREP: Using CRC-32C for message checksums.
+2026-10-20 13:16:36 0 [Note] WSREP: backend: asio
+2026-10-20 13:16:36 0 [Note] WSREP: gcomm thread scheduling priority set to other:0 
+2026-10-20 13:16:36 0 [Note] WSREP: restore pc from disk successfully
+2026-10-20 13:16:36 0 [Note] WSREP: GMCast version 0
+2026-10-20 13:16:44 0 [Warning] WSREP: Failed to resolve tcp://galera3:4567
+2026-10-20 13:16:44 0 [Note] WSREP: (045c3bd0-bb8b, 'tcp://0.0.0.0:4567') listening at tcp://0.0.0.0:4567
+2026-10-20 13:16:44 0 [Note] WSREP: (045c3bd0-bb8b, 'tcp://0.0.0.0:4567') multicast: , ttl: 1
+2026-10-20 13:16:44 0 [Note] WSREP: EVS version 1
+2026-10-20 13:16:44 0 [Note] WSREP: gcomm: connecting to group 'uptime-kuma-galera', peer 'galera1:,galera2:,galera3:'
+2026-10-20 13:16:44 0 [Note] WSREP: (045c3bd0-bb8b, 'tcp://0.0.0.0:4567') Found matching local endpoint for a connection, blacklisting address tcp://172.20.0.3:4567
+2026-10-20 13:16:44 0 [Note] WSREP: (045c3bd0-bb8b, 'tcp://0.0.0.0:4567') connection established to 1882a9c7-adc5 tcp://172.20.0.2:4567
+2026-10-20 13:16:45 0 [Note] WSREP: EVS version upgrade 0 -> 1
+2026-10-20 13:16:45 0 [Note] WSREP: declaring 1882a9c7-adc5 at tcp://172.20.0.2:4567 stable
+2026-10-20 13:16:45 0 [Note] WSREP: PC protocol upgrade 0 -> 1
+2026-10-20 13:16:45 0 [Note] WSREP: view(view_id(NON_PRIM,045c3bd0-bb8b,314) memb {
+	045c3bd0-bb8b,0
+	1882a9c7-adc5,0
+} joined {
+} left {
+} partitioned {
+	045c3bd0-bb8a,0
+	0b73f404-b597,0
+})
+2026-10-20 13:16:45 0 [Warning] WSREP: node uuid: 045c3bd0-bb8a last_prim(type: 3, uuid: 045c3bd0-bb8a) is inconsistent to restored view(type: V_NON_PRIM, uuid: 045c3bd0-bb8a
+2026-10-20 13:16:45 0 [Note] WSREP: gcomm: connected
+2026-10-20 13:16:45 0 [Note] WSREP: Changing maximum packet size to 64500, resulting msg size: 32636
+2026-10-20 13:16:45 0 [Note] WSREP: Shifting CLOSED -> OPEN (TO: 0)
+2026-10-20 13:16:45 0 [Note] WSREP: Opened channel 'uptime-kuma-galera'
+2026-10-20 13:16:45 0 [Note] WSREP: New COMPONENT: primary = no, bootstrap = no, my_idx = 0, memb_num = 2
+2026-10-20 13:16:45 0 [Note] WSREP: Flow-control interval: [23, 23]
+2026-10-20 13:16:45 0 [Note] WSREP: Received NON-PRIMARY.
+2026-10-20 13:16:45 0 [Note] WSREP: Initializing config service v1
+2026-10-20 13:16:45 1 [Note] WSREP: Starting rollbacker thread 1
+2026-10-20 13:16:45 2 [Note] WSREP: Starting applier thread 2
+2026-10-20 13:16:45 0 [Note] WSREP: Deinitializing config service v1
+2026-10-20 13:16:45 2 [Note] WSREP: ================================================
+View:
+  id: 00000000-0000-0000-0000-000000000000:-1
+  status: non-primary
+  protocol_version: -1
+  capabilities: 
+  final: no
+  own_index: 0
+  members(2):
+	0: 045c3bd0-cc80-11f1-bb8b-a79d71364517, galera2
+	1: 1882a9c7-cc7c-11f1-adc5-32e52869687c, unspecified
+=================================================
+2026-10-20 13:16:45 2 [Note] WSREP: Non-primary view
+2026-10-20 13:16:45 2 [Note] WSREP: Server status change disconnected -> connected
+2026-10-20 13:16:45 2 [Note] WSREP: wsrep_notify_cmd is not defined, skipping notification.
+2026-10-20 13:16:48 0 [Note] WSREP: (045c3bd0-bb8b, 'tcp://0.0.0.0:4567') turning message relay requesting off

@@ -1,0 +1,9 @@
+
+========== kuma-prometheus ==========
+State=created Error=
+
+========== kuma-grafana ==========
+State=created Error=
+
+========== kuma-node-exporter ==========
+State=created Error=path / is mounted on / but it is not a shared or slave mount

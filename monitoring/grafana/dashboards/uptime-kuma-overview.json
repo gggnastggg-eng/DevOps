@@ -1,0 +1,62 @@
+{
+  "uid": "kuma-overview",
+  "title": "Uptime Kuma — контур мониторинга",
+  "tags": ["devops", "monitoring", "uptime-kuma"],
+  "timezone": "browser",
+  "schemaVersion": 41,
+  "version": 1,
+  "refresh": "15s",
+  "time": {"from": "now-1h", "to": "now"},
+  "panels": [
+    {
+      "id": 1, "title": "Uptime Kuma доступен", "type": "stat",
+      "gridPos": {"h": 5, "w": 6, "x": 0, "y": 0},
+      "datasource": {"type": "prometheus", "uid": "prometheus"},
+      "targets": [{"expr": "probe_success{job=\"blackbox-uptime-kuma\"}", "legendFormat": "HTTP probe"}],
+      "fieldConfig": {"defaults": {"thresholds": {"mode": "absolute", "steps": [{"color": "red", "value": null}, {"color": "green", "value": 1}]}, "min": 0, "max": 1}, "overrides": []},
+      "options": {"reduceOptions": {"calcs": ["lastNotNull"], "fields": "", "values": false}, "orientation": "auto", "colorMode": "background", "graphMode": "area", "justifyMode": "center"}
+    },
+    {
+      "id": 2, "title": "HTTP latency (сек.)", "type": "timeseries",
+      "gridPos": {"h": 8, "w": 9, "x": 6, "y": 0},
+      "datasource": {"type": "prometheus", "uid": "prometheus"},
+      "targets": [{"expr": "probe_duration_seconds{job=\"blackbox-uptime-kuma\"}", "legendFormat": "{{instance}}"}],
+      "fieldConfig": {"defaults": {"unit": "s"}, "overrides": []},
+      "options": {"legend": {"displayMode": "list", "placement": "bottom"}, "tooltip": {"mode": "single"}}
+    },
+    {
+      "id": 3, "title": "CPU контейнеров", "type": "timeseries",
+      "gridPos": {"h": 8, "w": 9, "x": 15, "y": 0},
+      "datasource": {"type": "prometheus", "uid": "prometheus"},
+      "targets": [{"expr": "sum by (name) (rate(container_cpu_usage_seconds_total{name!=\"\", image!=\"\"}[5m]))", "legendFormat": "{{name}}"}],
+      "fieldConfig": {"defaults": {"unit": "percentunit"}, "overrides": []},
+      "options": {"legend": {"displayMode": "list", "placement": "bottom"}, "tooltip": {"mode": "single"}}
+    },
+    {
+      "id": 4, "title": "Память контейнеров", "type": "timeseries",
+      "gridPos": {"h": 8, "w": 12, "x": 0, "y": 8},
+      "datasource": {"type": "prometheus", "uid": "prometheus"},
+      "targets": [{"expr": "container_memory_working_set_bytes{name!=\"\", image!=\"\"}", "legendFormat": "{{name}}"}],
+      "fieldConfig": {"defaults": {"unit": "bytes"}, "overrides": []},
+      "options": {"legend": {"displayMode": "list", "placement": "bottom"}, "tooltip": {"mode": "single"}}
+    },
+    {
+      "id": 5, "title": "Экспортёры доступны", "type": "stat",
+      "gridPos": {"h": 5, "w": 6, "x": 15, "y": 8},
+      "datasource": {"type": "prometheus", "uid": "prometheus"},
+      "targets": [{"expr": "count(up == 1)", "legendFormat": "targets up"}],
+      "fieldConfig": {"defaults": {"unit": "short", "color": {"mode": "thresholds"}, "thresholds": {"mode": "absolute", "steps": [{"color": "red", "value": null}, {"color": "green", "value": 3}]}}, "overrides": []},
+      "options": {"reduceOptions": {"calcs": ["lastNotNull"], "values": false}, "colorMode": "value", "graphMode": "none", "orientation": "auto", "justifyMode": "center"}
+    },
+    {
+      "id": 6, "title": "Статус targets Prometheus", "type": "table",
+      "gridPos": {"h": 7, "w": 9, "x": 15, "y": 13},
+      "datasource": {"type": "prometheus", "uid": "prometheus"},
+      "targets": [{"expr": "up", "format": "table", "instant": true, "legendFormat": "{{job}}"}],
+      "options": {"showHeader": true, "cellHeight": "sm"}
+    }
+  ],
+  "annotations": {"list": []},
+  "templating": {"list": []},
+  "links": []
+}

@@ -1,0 +1,95 @@
+services:
+  galera1:
+    image: mariadb:11.4
+    container_name: galera1
+    hostname: galera1
+    restart: unless-stopped
+    command: ["--wsrep-new-cluster"]
+    environment:
+      MARIADB_ROOT_PASSWORD: ${GALERA_ROOT_PASSWORD:-change-me-galera-root}
+      MARIADB_DATABASE: uptimekuma
+      MARIADB_USER: kuma
+      MARIADB_PASSWORD: ${GALERA_DB_PASSWORD:-change-me-galera-db}
+      MARIADB_GALERA_MARIABACKUP_USER: sstuser
+      MARIADB_GALERA_MARIABACKUP_PASSWORD: ${GALERA_SST_PASSWORD:-change-me-sst-password}
+    volumes:
+      - galera1_data:/var/lib/mysql
+      - ./galera/galera.cnf:/etc/mysql/conf.d/galera.cnf:ro
+    networks: [galera]
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+      start_period: 60s
+
+  galera2:
+    image: mariadb:11.4
+    container_name: galera2
+    hostname: galera2
+    restart: unless-stopped
+    environment:
+      MARIADB_ROOT_PASSWORD: ${GALERA_ROOT_PASSWORD:-change-me-galera-root}
+      MARIADB_GALERA_MARIABACKUP_USER: sstuser
+      MARIADB_GALERA_MARIABACKUP_PASSWORD: ${GALERA_SST_PASSWORD:-change-me-sst-password}
+    volumes:
+      - galera2_data:/var/lib/mysql
+      - ./galera/galera.cnf:/etc/mysql/conf.d/galera.cnf:ro
+    networks: [galera]
+    depends_on:
+      galera1:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+      start_period: 60s
+
+  galera3:
+    image: mariadb:11.4
+    container_name: galera3
+    hostname: galera3
+    restart: unless-stopped
+    environment:
+      MARIADB_ROOT_PASSWORD: ${GALERA_ROOT_PASSWORD:-change-me-galera-root}
+      MARIADB_GALERA_MARIABACKUP_USER: sstuser
+      MARIADB_GALERA_MARIABACKUP_PASSWORD: ${GALERA_SST_PASSWORD:-change-me-sst-password}
+    volumes:
+      - galera3_data:/var/lib/mysql
+      - ./galera/galera.cnf:/etc/mysql/conf.d/galera.cnf:ro
+    networks: [galera]
+    depends_on:
+      galera1:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+      start_period: 60s
+
+  haproxy:
+    image: haproxy:3.0
+ command: ["haproxy", "-W", "-db", "-f", "/usr/local/etc/haproxy-config/haproxy.cfg"]
+    container_name: galera-haproxy
+    restart: unless-stopped
+    ports:
+      - "3307:3306"
+      - "8404:8404"
+    volumes:
+      - ./galera:/usr/local/etc/haproxy-config:ro
+    networks: [galera]
+    depends_on:
+      - galera1
+      - galera2
+      - galera3
+
+volumes:
+  galera1_data:
+  galera2_data:
+  galera3_data:
+
+networks:
+  galera:
+    name: kuma-galera

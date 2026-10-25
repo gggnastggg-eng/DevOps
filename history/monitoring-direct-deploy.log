@@ -1,0 +1,15 @@
+=== Проверка Compose ===
+=== Проверка сети приложения ===
+=== Запуск мониторинга напрямую из WSL ===
+ Container 77fdc00cf3d4_kuma-blackbox-exporter Running 
+ Container kuma-cadvisor Running 
+ Container uptime-kuma Stopping 
+ Container kuma-mariadb Stopping 
+ Container kuma-mariadb Stopped 
+ Container kuma-mariadb Removing 
+ Container kuma-mariadb Removed 
+ Container uptime-kuma Stopped 
+ Container uptime-kuma Removing 
+ Container uptime-kuma Removed 
+ Container kuma-node-exporter Starting 
+Error response from daemon: path / is mounted on / but it is not a shared or slave mount

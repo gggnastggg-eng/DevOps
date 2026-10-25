@@ -1,0 +1,36 @@
+================================================
+ РАЗВЁРТЫВАНИЕ И ПРОВЕРКА МОНИТОРИНГА
+================================================
+
+[1/7] Проверка Docker
+OK: Docker доступен.
+
+[2/7] Проверка файлов проекта
+OK: основные файлы найдены.
+
+[3/7] Проверка конфигурации Compose
+OK: обе конфигурации корректны.
+
+[4/7] Проверка сети приложения
+OK: сеть kuma-app существует.
+
+[5/7] Развёртывание мониторинга
+time="2026-10-20T13:53:16+03:00" level=warning msg="Found orphan containers (uptime-kuma, kuma-mariadb) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
+ Container kuma-cadvisor Running 
+ Container kuma-blackbox-exporter Stopping 
+ Container kuma-blackbox-exporter Stopped 
+ Container kuma-blackbox-exporter Removing 
+ Container kuma-blackbox-exporter Removed 
+ Container kuma-prometheus Recreate 
+ Container kuma-prometheus Recreated 
+ Container kuma-grafana Recreate 
+ Container kuma-grafana Recreated 
+ Container 77fdc00cf3d4_kuma-blackbox-exporter Starting 
+ Container kuma-node-exporter Starting 
+ Container 77fdc00cf3d4_kuma-blackbox-exporter Started 
+Error response from daemon: path / is mounted on / but it is not a shared or slave mount
+
+ОШИБКА: команда завершилась с кодом 1
+Журнал: /tmp/devops-check/DevOps_Testovoe/monitoring-deploy.log
+
+Нажми Enter, чтобы закрыть этот запуск...
